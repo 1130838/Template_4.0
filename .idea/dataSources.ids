@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="H2 - myDataBase" uuid="7acd9e83-ffc8-4905-9af3-bcf9f82dc711">
+    <database-info product="H2" version="1.3.175 (2014-01-18)" jdbc-version="4.0" driver-name="H2 JDBC Driver" driver-version="1.3.175 (2014-01-18)">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact"/>
+    <schema name="PUBLIC" catalog="MYDATABASE"/>
+    <table name="PERSON" schema="PUBLIC" catalog="MYDATABASE" type="TABLE">
+      <column name="IDPERSON" sqlType="INTEGER" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="NAME" sqlType="VARCHAR" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="CONSTRAINT_8" columns="IDPERSON"/>
+    </table>
+    <table name="SEQUENCE" schema="PUBLIC" catalog="MYDATABASE" type="TABLE">
+      <column name="SEQ_NAME" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="SEQ_COUNT" sqlType="DECIMAL" precision="38" scale="0" nullable="true" jdbcType="3"/>
+      <primary-key name="CONSTRAINT_7" columns="SEQ_NAME"/>
+    </table>
+  </data-source>
+</component>
